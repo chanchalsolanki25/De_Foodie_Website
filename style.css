@@ -223,7 +223,7 @@
     font-size: 1.3rem;
     width: 80%;
     font-family: 'Prata', serif;
-    margin: 3px auto;
+    margin: 2px auto;
 }
 
 .form form input,
@@ -232,13 +232,13 @@ textarea {
     border-radius: 6px;
     display: block;
     width: 80%;
-    margin: 3px auto;
+    margin: 2px auto;
     padding: 10px;
     background-color: rgba(198, 191, 191, 0.838);
 }
 
 .form-control {
-    margin: 20px 0px;
+    margin: 5px 0px;
 }
 
 .orderBtn {
@@ -273,4 +273,20 @@ textarea {
     padding: 3px;
     font-family: 'Prata', serif;
     color: white;
+}
+
+/* Form-Validation */
+.show{
+    visibility: visible;
+    margin: 0px 61px;
+    color: red;
+}
+
+.hide{
+   visibility: hidden;
+}
+
+#successMsg{
+    color: green;
+    margin: 0px 61px;
 }

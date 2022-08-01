@@ -1,7 +1,5 @@
 body{
-   
-    /* background: url('img/Services/bg.jpeg')no-repeat; */
-    opacity: 0.8;
+       opacity: 0.8;
 }
 
 /* Services Section */
@@ -10,15 +8,9 @@ body{
     display: flex;
     margin: 12px 12px;
     border-radius: 9px;
-    /* border: 2px solid white;
-    background-color: azure;
-    color: black;
-    opacity: 0.5;
-    z-index: -1; */
 }
 
 .service{
-    /* border: 2px solid black; */
     width: 50%;
     margin: 12px 12px;
     padding: 10px 10px;
@@ -40,7 +32,6 @@ body{
 }
 
 #serviceImg{
-    /* border: 2px solid black; */
     width: 50%;
     margin: 12px 12px;
     padding: 10px 10px;
@@ -77,3 +68,4 @@ body{
     opacity: 0.8;
     margin: 0px;
 }
+
